@@ -75,6 +75,7 @@ a {
 
 #dog-image {
   width: 500px;
+  border-radius: 8px;
 }
 
 .hero-button {
@@ -98,8 +99,45 @@ h1 {
   margin: 0;
 }
 
+.random-content {
+  height: 60vh;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 p {
   color: #bcbfc4;
   font-size: 18px;
   margin: 0;
+}
+
+.box {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.box-text {
+  text-align: center;
+}
+
+.box-outline {
+  width: 150px;
+  height: 160px;
+  border: 5px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.box-row {
+  display: flex;
+  justify-content: center;
+
 }
